@@ -1,0 +1,126 @@
+Package: digitemp-usb
+Version: 3.7.1-1
+Depends: libc, libusb-compat
+Source: /work/digitemp
+License: GPL-2.0+
+Section: utils
+Maintainer: Yoshio HANAWA <for-openwrt@hnw.jp>
+Architecture: arm_cortex-a9
+Installed-Size: 21522
+Filename: digitemp-usb_3.7.1-1_arm_cortex-a9.ipk
+Size: 22388
+SHA256sum: ccb0a0a86b8025ff474fdc07b46c49ac40cc58aefe04b09f859b3a6801b5d374
+Description:  DigiTemp is a simple to use program for reading values from 1-wire devices.
+ Its main use is for reading temperature sensors, but it also reads counters,
+ and understands the 1-wire hubs with devices on different branches of the network.
+ This package is built with USB support.
+
+Package: digitemp
+Version: 3.7.1-1
+Depends: libc
+Source: /work/digitemp
+License: GPL-2.0+
+Section: utils
+Maintainer: Yoshio HANAWA <for-openwrt@hnw.jp>
+Architecture: arm_cortex-a9
+Installed-Size: 44793
+Filename: digitemp_3.7.1-1_arm_cortex-a9.ipk
+Size: 42717
+SHA256sum: 6f91217a04e4307d6c4e40c4a8b18527c60a35339a8198039a3fa72d941f80d9
+Description:  DigiTemp is a simple to use program for reading values from 1-wire devices.
+ Its main use is for reading temperature sensors, but it also reads counters,
+ and understands the 1-wire hubs with devices on different branches of the network.
+ This package is built without USB support.
+
+Package: lv
+Version: 4.51-1
+Depends: libc, libncursesw
+Source: /work/lv
+License: GPL-2.0
+LicenseFiles: GPL.txt
+Section: utils
+Maintainer: Yoshio HANAWA <for-openwrt@hnw.jp>
+Architecture: arm_cortex-a9
+Installed-Size: 373114
+Filename: lv_4.51-1_arm_cortex-a9.ipk
+Size: 373393
+SHA256sum: c4b71c65b4090069a42d25a30a8497d635448f9c3bbc82046bc2c043f2ec6fa0
+Description:  Powerful multi-lingual file viewer/grep
+
+Package: mackerel-agent
+Version: 0.47.1-1
+Depends: libc, ca-certificates
+Source: /work/mackerel-agent
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: admin
+Maintainer: Yoshio HANAWA <for-openwrt@hnw.jp>
+Architecture: arm_cortex-a9
+Installed-Size: 1553286
+Filename: mackerel-agent_0.47.1-1_arm_cortex-a9.ipk
+Size: 1554445
+SHA256sum: adfa2d9304fc9fecf198cfde45fb4d4fefa2458e228ea2145f4db206817ec8d6
+Description:  mackerel.io agent
+ Server monitoring agent for https://mackerel.io (Monitoring SaaS)
+
+Package: mackerel-plugin-iw
+Version: 0.1.0-1
+Depends: libc, mackerel-agent
+Source: /work/mackerel-plugin-iw
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: admin
+Maintainer: Yoshio HANAWA <for-openwrt@hnw.jp>
+Architecture: arm_cortex-a9
+Installed-Size: 815206
+Filename: mackerel-plugin-iw_0.1.0-1_arm_cortex-a9.ipk
+Size: 816234
+SHA256sum: 108744a78511fee2720abaa3a2864cd894f15c574c16f6f8ca6c9b509db6ce18
+Description:  iw custom metrics plugin for mackerel-agent
+
+Package: miruo
+Version: 0.9.6b-1
+Depends: libc, libpcap
+Source: /work/miruo
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Yoshio HANAWA <for-openwrt@hnw.jp>
+Architecture: arm_cortex-a9
+Installed-Size: 15477
+Filename: miruo_0.9.6b-1_arm_cortex-a9.ipk
+Size: 16270
+SHA256sum: 6a620a9a6d3027eeb0a6319a6a3d81c03b23dfbff776df70500419b269ad484c
+Description:  Network monitor/analyzer which prints packets on terminal in neat style.
+ Packet data can also be read from a file saved by tcpdump(1).
+
+Package: netstat-nat
+Version: 1.4.10-1
+Depends: libc
+Source: /work/netstat-nat
+Section: net
+Architecture: arm_cortex-a9
+Installed-Size: 6987
+Filename: netstat-nat_1.4.10-1_arm_cortex-a9.ipk
+Size: 7833
+SHA256sum: 3be4458c2f442d72114dc85d7173de7ac4ccce04fec43d284271b5b1e57451ef
+Description:  Netstat-nat is a small program written in C.
+ It displays NAT connections, managed by netfilter/iptables which comes
+ with the > 2.4.x linux kernels.
+ The program reads its information from '/proc/net/ip_conntrack', which
+ is the temporary conntrack-storage of netfilter.
+
+Package: nkf
+Version: 2.1.4-1
+Depends: libc
+Source: /work/nkf
+License: MIT
+Section: utils
+Maintainer: Yoshio HANAWA <for-openwrt@hnw.jp>
+Architecture: arm_cortex-a9
+Installed-Size: 119868
+Filename: nkf_2.1.4-1_arm_cortex-a9.ipk
+Size: 120130
+SHA256sum: c80c1565ea6ad7d49fd7f22cce10d8097288d9cc9a40b275ccb22b458e61333b
+Description:  Network Kanji code conversion Filter (NKF)
+

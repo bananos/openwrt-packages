@@ -1,0 +1,126 @@
+Package: digitemp-usb
+Version: 3.7.1-1
+Depends: libc, libusb-compat
+Source: /work/digitemp
+License: GPL-2.0+
+Section: utils
+Maintainer: Yoshio HANAWA <for-openwrt@hnw.jp>
+Architecture: ar71xx
+Installed-Size: 19335
+Filename: digitemp-usb_3.7.1-1_ar71xx.ipk
+Size: 20202
+SHA256sum: e6b200e216578c32359e9c54bafe3acae916cd6ceba6a70410851cca577d8d0e
+Description:  DigiTemp is a simple to use program for reading values from 1-wire devices.
+ Its main use is for reading temperature sensors, but it also reads counters,
+ and understands the 1-wire hubs with devices on different branches of the network.
+ This package is built with USB support.
+
+Package: digitemp
+Version: 3.7.1-1
+Depends: libc
+Source: /work/digitemp
+License: GPL-2.0+
+Section: utils
+Maintainer: Yoshio HANAWA <for-openwrt@hnw.jp>
+Architecture: ar71xx
+Installed-Size: 40061
+Filename: digitemp_3.7.1-1_ar71xx.ipk
+Size: 40157
+SHA256sum: e7fd46513be852bdfbdec052bbbf2810bbbd1fef055cb14a9e0d78459656673d
+Description:  DigiTemp is a simple to use program for reading values from 1-wire devices.
+ Its main use is for reading temperature sensors, but it also reads counters,
+ and understands the 1-wire hubs with devices on different branches of the network.
+ This package is built without USB support.
+
+Package: lv
+Version: 4.51-1
+Depends: libc, libncursesw
+Source: /work/lv
+License: GPL-2.0
+LicenseFiles: GPL.txt
+Section: utils
+Maintainer: Yoshio HANAWA <for-openwrt@hnw.jp>
+Architecture: ar71xx
+Installed-Size: 381629
+Filename: lv_4.51-1_ar71xx.ipk
+Size: 381101
+SHA256sum: 09152cc4002104651c91234d4dda6ad1cd74a2c38e391b7dda024a4c0ab9bbc2
+Description:  Powerful multi-lingual file viewer/grep
+
+Package: mackerel-agent
+Version: 0.47.1-1
+Depends: libc, ca-certificates
+Source: /work/mackerel-agent
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: admin
+Maintainer: Yoshio HANAWA <for-openwrt@hnw.jp>
+Architecture: ar71xx
+Installed-Size: 1515448
+Filename: mackerel-agent_0.47.1-1_ar71xx.ipk
+Size: 1516579
+SHA256sum: 6d5fb27fa52e0a30fc8378350a9368781b4e2beeb5a46484d607e6d86e3d4b29
+Description:  mackerel.io agent
+ Server monitoring agent for https://mackerel.io (Monitoring SaaS)
+
+Package: mackerel-plugin-iw
+Version: 0.1.0-1
+Depends: libc, mackerel-agent
+Source: /work/mackerel-plugin-iw
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: admin
+Maintainer: Yoshio HANAWA <for-openwrt@hnw.jp>
+Architecture: ar71xx
+Installed-Size: 800745
+Filename: mackerel-plugin-iw_0.1.0-1_ar71xx.ipk
+Size: 801708
+SHA256sum: eb3c53f71e996b5ca52f279e0f52980f718761fd40fc5f6ff7f25b47bb890db6
+Description:  iw custom metrics plugin for mackerel-agent
+
+Package: miruo
+Version: 0.9.6b-1
+Depends: libc, libpcap
+Source: /work/miruo
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Yoshio HANAWA <for-openwrt@hnw.jp>
+Architecture: ar71xx
+Installed-Size: 15763
+Filename: miruo_0.9.6b-1_ar71xx.ipk
+Size: 16541
+SHA256sum: 718af366bba46cc5d66d73f46c6b63a58d48881fe2a7606a807dcad9b7c333d1
+Description:  Network monitor/analyzer which prints packets on terminal in neat style.
+ Packet data can also be read from a file saved by tcpdump(1).
+
+Package: netstat-nat
+Version: 1.4.10-1
+Depends: libc
+Source: /work/netstat-nat
+Section: net
+Architecture: ar71xx
+Installed-Size: 6004
+Filename: netstat-nat_1.4.10-1_ar71xx.ipk
+Size: 6805
+SHA256sum: 8a1bf3bc8b2d1564a80543391f6d2e4ba9e04344adf3a387b563e57db0b1e067
+Description:  Netstat-nat is a small program written in C.
+ It displays NAT connections, managed by netfilter/iptables which comes
+ with the > 2.4.x linux kernels.
+ The program reads its information from '/proc/net/ip_conntrack', which
+ is the temporary conntrack-storage of netfilter.
+
+Package: nkf
+Version: 2.1.4-1
+Depends: libc
+Source: /work/nkf
+License: MIT
+Section: utils
+Maintainer: Yoshio HANAWA <for-openwrt@hnw.jp>
+Architecture: ar71xx
+Installed-Size: 123855
+Filename: nkf_2.1.4-1_ar71xx.ipk
+Size: 124339
+SHA256sum: 6b29510dd72a5a81e3344c98b5b185b20ba3f63fe93cd2b92d7f4e95fb3a5752
+Description:  Network Kanji code conversion Filter (NKF)
+
